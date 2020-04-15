@@ -31,7 +31,7 @@
     </template>
 
     <template id="report_assets_pdf">
-        <link href="/web/static/src/css/reset.min.css" rel="stylesheet"/>
+        <link href="/web/static/src/css/reset.css" rel="stylesheet"/>
     </template>
 
     <template id="report_assets_editor">
