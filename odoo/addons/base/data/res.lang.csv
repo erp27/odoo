@@ -1,3 +1,4 @@
+"id","name","code","iso_code","direction","grouping","decimal_point","thousands_sep","date_format","time_format","translatable","week_start"
 "base.lang_en","English (US)","en_US","en","Left-to-Right","[3,0]",".",",","%m/%d/%Y","%H:%M:%S","7"
 "base.lang_eu_ES","Basque / Euskara","eu_ES","eu_ES","Left-to-Right","[]",",",,"%a, %Y.eko %bren %da","%H:%M:%S","1"
 "base.lang_bs_BA","Bosnian / bosanski jezik","bs_BA","bs","Left-to-Right","[]",",",,"%d.%m.%Y","%H:%M:%S","7"
