@@ -11,6 +11,11 @@ $o-onboarding-orange-bg-2: #B9684F;
 $o-onboarding-orange-ui-1: #599FF1;
 $o-onboarding-orange-ui-2: #68B3C9;
 
+$o-onboarding-yellow-bg-1: #ffc107;
+$o-onboarding-yellow-bg-2: #B9684F;
+$o-onboarding-yellow-ui-1: #599FF1;
+$o-onboarding-yellow-ui-2: #68B3C9;
+
 $o-onboarding-violet-bg-1: #6070C3;
 $o-onboarding-violet-bg-2: #475DA4;
 $o-onboarding-violet-ui-1: #F39D9B;
@@ -271,6 +276,10 @@ $o-onboarding-violet-ui-2: #FBEEC8;
 
     &.o_onboarding_orange {
         @include o-onboarding-variation($o-onboarding-orange-bg-1, $o-onboarding-orange-bg-2, $o-onboarding-orange-ui-1, $o-onboarding-orange-ui-2);
+    }
+
+    &.o_onboarding_yellow {
+        @include o-onboarding-variation($o-onboarding-yellow-bg-1, $o-onboarding-yellow-bg-2, $o-onboarding-yellow-ui-1, $o-onboarding-yellow-ui-2);
     }
 
     &.o_onboarding_violet {
