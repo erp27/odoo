@@ -153,7 +153,9 @@ var GroupByMenu = DropdownMenu.extend({
      * @param {Object} item
      */
      _prepareItem: function (item) {
-        if (_.contains(['date', 'datetime'], this.fields[item.fieldName].type)) {
+        if ( this.fields[item.fieldName]
+            && this.fields[item.fieldName].type
+            && _.contains(['date', 'datetime'], this.fields[item.fieldName].type)) {
             item.options = this.intervalOptions;
         }
         // super has to be called here because we need to add options to groupby
