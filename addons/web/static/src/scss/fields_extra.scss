@@ -6,7 +6,7 @@
 // Required
 .o_required_modifier {
     &.o_input, .o_input {
-        background-color: #D2D2FF!important;
+        background-color: #fffcf7!important;
     }
 }
 
@@ -25,7 +25,7 @@
         padding: 0;
         margin-left: 2px;
         font-size: 19px;
-        color: #7C7BAD;
+        color: $o-enterprise-primary-color;
         border: none;
         &:hover {
             background-color: transparent;
