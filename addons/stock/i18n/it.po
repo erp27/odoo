@@ -23,7 +23,7 @@
 # Davide Corio <enlightx@gmail.com>, 2019
 # Léonie Bouchat <lbo@odoo.com>, 2019
 # Stefano Consolaro <stefano.consolaro@mymage.it>, 2019
-# Lorenzo Battistini <lb@takobi.online>, 2019
+# Lorenzo Battistini <lb@takobi.online>, 2020
 # Sergio Zanchetta <primes2h@gmail.com>, 2020
 # 
 msgid ""
@@ -4072,7 +4072,7 @@ msgstr "Ubicazione genitore"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location__parent_path
 msgid "Parent Path"
-msgstr "Percorso"
+msgstr "Percorso padre"
 
 #. module: stock
 #: selection:procurement.group,move_type:0
@@ -5241,9 +5241,10 @@ msgid ""
 "Selecting \"Blocking Message\" will throw an exception with the message and "
 "block the flow. The Message has to be written in the next field."
 msgstr ""
-"Scegliendo l'opzione \"Avvisi\" si notificherà all'utente con il messaggio, "
-"Scegliendo \"Messaggio bloccante\" lancerà una eccezione con il messaggio e "
-"bloccherà il flusso. Il messaggio deve essere scritto nel campo successivo."
+"Selezionando l'opzione \"Avviso\" l'utente viene notificato con un "
+"messaggio. Selezionando \"Messaggio bloccante\" viene inviata un'eccezione "
+"con il messaggio e viene bloccato il flusso. Scrivere il messaggio nel campo"
+" successivo."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -7221,8 +7222,8 @@ msgid ""
 "force the transfer, switch in edit more and encode the done quantities."
 msgstr ""
 "Impossibile validare un trasferimento se non ci sono quantità riservate o "
-"effettuate. Per forzare il trasferimento, cambiare in \"Modificare di più\" "
-"e inserire le quantità effetuate."
+"effettuate. Per forzare il trasferimento, passare alla modalità modifica e "
+"inserire le quantità effetuate."
 
 #. module: stock
 #: code:addons/stock/wizard/stock_picking_return.py:112

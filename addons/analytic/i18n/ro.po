@@ -5,6 +5,7 @@
 # Translators:
 # Dorin Hongu <dhongu@gmail.com>, 2019
 # Martin Trigaux, 2019
+# Hongu Cosmin <cosmin513@gmail.com>, 2020
 # Foldi Robert <foldirobert@nexterp.ro>, 2020
 # 
 msgid ""
@@ -70,7 +71,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_group_form_view
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_group_tree_view
 msgid "Analytic Account Groups"
-msgstr ""
+msgstr "Grup Conturi Analitice"
 
 #. module: analytic
 #: model:res.groups,name:analytic.group_analytic_accounting
@@ -419,7 +420,7 @@ msgstr "Număr de acțiuni"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_has_error_counter
 msgid "Number of error"
-msgstr ""
+msgstr "Numărul erorii"
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__message_needaction_counter
