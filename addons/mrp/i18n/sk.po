@@ -9,9 +9,10 @@
 # Matus Krnac <matus.krnac@gmail.com>, 2018
 # gebri <gebri@inmail.sk>, 2018
 # Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>, 2018
-# Jan Prokop, 2019
 # Damian Brencic <brencicdamian12313@gmail.com>, 2020
 # Alexandra Brencicova <alexandra.brencicova@gmail.com>, 2020
+# Jan Prokop, 2020
+# karolína schusterová <karolina.schusterova@vdp.sk>, 2020
 # Rastislav Brencic <rastislav.brencic@azet.sk>, 2020
 # 
 msgid ""
@@ -141,6 +142,9 @@ msgid ""
 "specific.\" role=\"img\" aria-label=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" role=\"img\" aria-label=\"Uložené hodnoty sú špecifické pre "
+"spoločnosť.\" groups=\"base.group_multi_company\"/>"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view
@@ -337,7 +341,7 @@ msgstr "Aktívne"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__active_move_line_ids
 msgid "Active Move Line"
-msgstr ""
+msgstr "Linka aktívneho pohybu"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__activity_ids
@@ -2897,7 +2901,7 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "Reference:"
-msgstr ""
+msgstr "Referencia:"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document__ir_attachment_id
