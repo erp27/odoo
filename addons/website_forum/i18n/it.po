@@ -1562,7 +1562,7 @@ msgstr "Digitare un nome per il nuovo forum."
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.display_post_question_block
 msgid "External link"
-msgstr "Link esterno"
+msgstr "Collegamento esterno"
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_q_3
@@ -1785,7 +1785,7 @@ msgstr "Riconoscimento gamification"
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_gamification_challenge
 msgid "Gamification Challenge"
-msgstr "Challenge gamification"
+msgstr "Sfida di gamification"
 
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_gamification_badge_user
