@@ -2517,6 +2517,9 @@ msgid ""
 "Bridge module for project and enterprise\n"
 "    "
 msgstr ""
+"\n"
+"Modulo ponte per progetto ed enterprise\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_rating
@@ -9335,6 +9338,7 @@ msgstr "Aziende ammesse"
 #: model:ir.module.module,summary:base.module_stock_barcode_quality_control
 msgid "Allows the usage of quality checks within the barcode views"
 msgstr ""
+"Consente l'utilizzo di controlli qualità dentro le viste dei codici a barre"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_coupon_delivery
@@ -9407,7 +9411,7 @@ msgstr "Contabilità analitica"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_analytic_enterprise
 msgid "Analytic Accounting Enterprise"
-msgstr ""
+msgstr "Contabilità analitica per Enterprise"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mrp_account
@@ -9971,7 +9975,7 @@ msgstr "Codice a barre"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_barcode_quality_control
 msgid "Barcode Quality bridge module"
-msgstr ""
+msgstr "Modulo ponte tra codice a barre e qualità"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hw_scanner
@@ -10342,7 +10346,7 @@ msgstr "Gestione del budget"
 #. module: base
 #: model:ir.module.module,summary:base.module_marketing_automation
 msgid "Build automated mailing campaigns"
-msgstr ""
+msgstr "Crea campagne di invio e-mail automatizzate"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_form_editor
@@ -13459,7 +13463,7 @@ msgstr "Organizzazione eventi"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_event_enterprise
 msgid "Events Organization Add-on"
-msgstr ""
+msgstr "Componente aggiuntivo per organizzazione eventi"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_event_sale
@@ -14472,6 +14476,7 @@ msgstr ""
 msgid ""
 "France - VAT Anti-Fraud Certification for Point of Sale (CGI 286 I-3 bis)"
 msgstr ""
+"Francia - Certificazione antifrode IVA per punto vendita (CGI 286 I-3 bis)"
 
 #. module: base
 #: model:res.country,name:base.gf
@@ -17823,7 +17828,7 @@ msgstr "Iscritti"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_note_pad
 msgid "Memos pad"
-msgstr ""
+msgstr "Pad per promemoria"
 
 #. module: base
 #: model:ir.model,name:base.model_ir_ui_menu
@@ -17881,7 +17886,7 @@ msgstr "Unisci Contatti"
 #. module: base
 #: model:ir.model,name:base.model_base_partner_merge_line
 msgid "Merge Partner Line"
-msgstr ""
+msgstr "Riga unione partner"
 
 #. module: base
 #: model:ir.model,name:base.model_base_partner_merge_automatic_wizard
@@ -19657,7 +19662,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_web_mobile
 msgid "Odoo Mobile Core module"
-msgstr ""
+msgstr "Modulo base Odoo per dispositivi mobili"
 
 #. module: base
 #: model:ir.module.module,description:base.module_note
@@ -21396,7 +21401,7 @@ msgstr "Modulo partner per sito web"
 #. module: base
 #: model:ir.model.fields,help:base.field_res_users__partner_id
 msgid "Partner-related data of the user"
-msgstr "Dati partner dell'utente"
+msgstr "Dati utente collegati al partner"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_category__partner_ids
@@ -21664,7 +21669,7 @@ msgstr "Ristampa ricevuta del punto vendita"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_enterprise
 msgid "Point of Sale enterprise"
-msgstr ""
+msgstr "Punto vendita per Enterprise"
 
 #. module: base
 #: model:res.country,name:base.pl
@@ -21877,7 +21882,7 @@ msgstr "Progetto"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_project_enterprise
 msgid "Project Enterprise"
-msgstr ""
+msgstr "Progetti per Enterprise"
 
 #. module: base
 #: model:ir.module.module,description:base.module_project
@@ -22150,7 +22155,7 @@ msgstr "Ordini di acquisto, ricevute, fatture dei fornitori per magazzino"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_stock
 msgid "Purchase Stock"
-msgstr ""
+msgstr "Magazzino acquisti"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_mrp
@@ -22991,7 +22996,7 @@ msgstr "Vendita sulla base dell'esternalizzazione"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_enterprise
 msgid "Sale enterprise"
-msgstr ""
+msgstr "Vendite per Enterprise"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_sales
@@ -23959,7 +23964,7 @@ msgstr "Magazzino Intrastat"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_account_enterprise
 msgid "Stock account enterprise"
-msgstr ""
+msgstr "Contabilità di magazzino per Enterprise"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_enterprise
@@ -26201,7 +26206,7 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_product_unspsc
 #: model:ir.module.module,summary:base.module_product_unspsc
 msgid "UNSPSC product codes"
-msgstr ""
+msgstr "Codici prodotto UNSPSC"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_ups
