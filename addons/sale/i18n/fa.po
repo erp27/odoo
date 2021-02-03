@@ -13,7 +13,8 @@
 # Martin Trigaux, 2018
 # Hamid Darabi, 2018
 # Hamid Reza Kaveh <hamidrkp@riseup.net>, 2019
-# Hamed Mohammadi <hamed@dehongi.com>, 2020
+# Hamed Mohammadi <hamed@dehongi.com>, 2021
+# Mohsen Mohammadi <iammohsen.123@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -21,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-14 07:34+0000\n"
 "PO-Revision-Date: 2018-08-24 09:24+0000\n"
-"Last-Translator: Hamed Mohammadi <hamed@dehongi.com>, 2020\n"
+"Last-Translator: Mohsen Mohammadi <iammohsen.123@gmail.com>, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -202,7 +203,7 @@ msgstr "<i class=\"fa fa-print\"/> چاپ"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.optional_product_items
 msgid "<i class=\"fa fa-shopping-cart add-optionnal-item\"/> Add to cart"
-msgstr ""
+msgstr "<i class=\"fa fa-shopping-cart add-optionnal-item\"/> افزودن به سبد"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -655,7 +656,7 @@ msgstr ""
 #. module: sale
 #: selection:product.template,expense_policy:0
 msgid "At cost"
-msgstr ""
+msgstr "با هزینه"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__message_attachment_count
@@ -670,7 +671,7 @@ msgstr "مشخصه"
 #. module: sale
 #: model:ir.model,name:sale.model_product_attribute_value
 msgid "Attribute Value"
-msgstr ""
+msgstr "مقدار مشخصه"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -690,7 +691,7 @@ msgstr "فاکتور خودکار"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.product_configurator_configure_optional_products
 msgid "Available Options:"
-msgstr ""
+msgstr "گزینه‌های موجود"
 
 #. module: sale
 #. openerp-web
@@ -763,7 +764,7 @@ msgstr ""
 #. module: sale
 #: model:product.template,name:sale.product_product_1_product_template
 msgid "Chair floor protection"
-msgstr ""
+msgstr "محافظ کف برای صندلی"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_crm_team__use_quotations
@@ -843,27 +844,27 @@ msgstr "هزینه‌های ارسال محاسبه و با DHL ارسال کن"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with Easypost"
-msgstr ""
+msgstr "محاسبه هزینه ارسال با Easypost"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with FedEx"
-msgstr ""
+msgstr "محاسبه هزینه ارسال با FedEx"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with UPS"
-msgstr ""
+msgstr "محاسبه هزینه ارسال با UPS"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with USPS"
-msgstr ""
+msgstr "محاسبه هزینه ارسال با USPS"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with bpost"
-msgstr ""
+msgstr "محاسبه هزینه ارسال با bpost"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -890,7 +891,7 @@ msgstr "پیکربندی"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Configure a product"
-msgstr ""
+msgstr "پیکربندی یک محصول"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_open_sale_onboarding_quotation_layout
@@ -1245,12 +1246,12 @@ msgstr "مقدار تخفیف"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_product_pricelist__discount_policy
 msgid "Discount Policy"
-msgstr ""
+msgstr "سیاست تخفیف"
 
 #. module: sale
 #: selection:product.pricelist,discount_policy:0
 msgid "Discount included in the price"
-msgstr ""
+msgstr "تخفیف در قیمت لحاظ شده است"
 
 #. module: sale
 #: model:res.groups,name:sale.group_discount_per_so_line
@@ -2125,7 +2126,7 @@ msgstr "تعداد پیام‌های خوانده نشده"
 #. module: sale
 #: model:product.template,description_sale:sale.product_product_1_product_template
 msgid "Office chairs can harm your floor: protect it."
-msgstr ""
+msgstr "صندلی دفتر می‌تواند به کف صدمه بزند: مراقبت کنید."
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.act_res_partner_2_sale_order
@@ -2137,6 +2138,8 @@ msgid ""
 "Once the quotation is confirmed by the customer, it becomes a sales "
 "order.<br> You will be able to create an invoice and collect the payment."
 msgstr ""
+"زمانیکه پیش‌فاکتور توسط مشتری تایید شد به سفارش فروش تبدیل می‌شود.<br> "
+"می‌توانید یک فاکتور ایجاد کنید و پرداختی را دریافت کنید."
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_orders
@@ -2144,6 +2147,8 @@ msgid ""
 "Once the quotation is confirmed, it becomes a sales order.<br> You will be "
 "able to create an invoice and collect the payment."
 msgstr ""
+"زمانیکه پیش‌فاکتور تایید شد به شفارش فروش بدل می‌شود.<br> می‌توانید فاکتور "
+"ایجاد کنید و پرداختی را دریافت کنید."
 
 #. module: sale
 #. openerp-web
@@ -2176,7 +2181,7 @@ msgstr "فقط عدد صحیح مجاز باشد"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.optional_product_items
 msgid "Option not available"
-msgstr ""
+msgstr "پیشنهاد در دسترس نیست"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_product_product__optional_product_ids
@@ -2553,7 +2558,7 @@ msgstr "لیست های قیمت"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__multi_sales_price_method
 msgid "Pricelists Method"
-msgstr ""
+msgstr "روش لیست قیمتی"
 
 #. module: sale
 #: selection:res.config.settings,multi_sales_price_method:0
@@ -2916,7 +2921,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model,name:sale.model_sale_product_configurator
 msgid "Sale Product Configurator"
-msgstr ""
+msgstr "پیکربندی کننده فروش محصول"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -3405,12 +3410,16 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"وضعیت بر اساس فعالیت\n"
+"Overdue: Due date is already passed\n"
+"امروز:تاریخ فعالیت امروز است\n"
+"برنامه‌ریزی شده: برنامه‌های آینده."
 
 #. module: sale
 #: model:product.template.attribute.value,name:sale.product_template_attribute_value_3
 #: model:product.template.attribute.value,name:sale.product_template_attribute_value_4
 msgid "Steel"
-msgstr ""
+msgstr "استیل"
 
 #. module: sale
 #: selection:sale.order.line,qty_delivered_method:0
@@ -3646,7 +3655,7 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.product_configurator_configure
 msgid "This combination does not exist."
-msgstr ""
+msgstr "این ترکیب وجود ندارد"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -3674,7 +3683,7 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.product_configurator_configure
 msgid "This product has no valid combination."
-msgstr ""
+msgstr "این محصول هیچ همخوانی معتبری ندارد"
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_order_report_all
